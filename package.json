@@ -12,10 +12,12 @@
   },
   "dependencies": {
     "@faker-js/faker": "^8.4.1",
+    "@prisma/client": "^5.10.2",
     "@remix-run/css-bundle": "^2.7.2",
     "@remix-run/node": "^2.7.2",
     "@remix-run/react": "^2.7.2",
     "@remix-run/serve": "^2.7.2",
+    "@tailwindcss/forms": "^0.5.7",
     "isbot": "^4.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -32,9 +34,12 @@
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.2.5",
+    "prisma": "^5.10.2",
     "typescript": "^5.1.6"
   },
   "engines": {
     "node": ">=18.0.0"
-  }
+  },
+  "prettier": {}
 }
